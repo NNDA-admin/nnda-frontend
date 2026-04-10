@@ -8,7 +8,7 @@ This template comes with the following features:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Storybook](https://storybook.js.org/)
 - [Vitest](https://vitest.dev/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+- Oxlint setup for TypeScript and React sources
 
 ## npm scripts
 
@@ -21,14 +21,14 @@ This template comes with the following features:
 ### Testing scripts
 
 - `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
+- `lint` – runs oxlint and stylelint
+- `format:test` – checks files with oxfmt
 - `vitest` – runs vitest tests
 - `vitest:watch` – starts vitest watch
-- `test` – runs `vitest`, `prettier:check`, `lint` and `typecheck` scripts
+- `test` – runs `vitest`, `format:test`, `lint` and `typecheck` scripts
 
 ### Other scripts
 
 - `storybook` – starts storybook dev server
 - `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+- `format:write` – formats all files with oxfmt
