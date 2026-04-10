@@ -25,11 +25,13 @@
     "@mantine/dates": "^9.0.1",
     "@mantine/form": "^9.0.1",
     "@mantine/hooks": "^9.0.1",
+    "@tailwindcss/vite": "^4.2.2",
     "dayjs": "^1.11.20",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.4",
-    "recharts": "^3.8.1"
+    "recharts": "^3.8.1",
+    "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
     "@storybook/addon-themes": "^10.0.0",
